@@ -26,16 +26,16 @@ document.querySelectorAll('button').forEach(button => {
     button.addEventListener('click', function(event) {
         const buttonId = event.target.id;
         switch (buttonId) {
-            case 'startBtn':
+            case 'start_button':
                 startCounter();
                 break;
-            case 'pauseBtn':
+            case 'pause_button':
                 pauseCounter();
                 break;
-            case 'resumeBtn':
+            case 'resume_button':
                 resumeCounter();
                 break;
-            case 'stopBtn':
+            case 'stop_button':
                 stopCounter();
                 break;
             default:

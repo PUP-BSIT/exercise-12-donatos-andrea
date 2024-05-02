@@ -16,11 +16,9 @@ h1 {
     color: #000000;
 }
 
-.timers {
+.timer {
     text-align: center;
     margin-top: 20px;
-    width: 500px;
-    height: 500px;
     color: #000000;
     background-color: rgba(230, 124, 249, 0.679);
     padding: 20px;
